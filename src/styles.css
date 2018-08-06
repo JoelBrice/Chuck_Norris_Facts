@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(9, 150, 226);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  margin-top: 32px;
+}
+.btn {
+  float: center;
+  margin: 0.5em 43% 1em 43%;
+  padding: auto;
+  background-color: rgb(108, 186, 250);
+  text-align: center;
+  border: 2px solid rgb(228, 231, 231);
+  border-radius: 5px;
+  min-width: 20%;
+  color: rgba(250, 249, 249, 0.959);
+  font-weight: bold;
+}
+#fact {
+  text-align: center;
+  border: 0 solid rgb(255, 255, 255);
+  margin: 3em;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  background-color: rgba(3, 104, 187, 0.918);
+  padding: auto;
+  border-radius: 5px;
+  max-width: 90%;
+}
+#title {
+  text-align: center;
+  color: rgb(245, 245, 248);
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 10px;
+  position: relative;
+  text-shadow: 0 0 0 rgb(58, 53, 48);
+}
+#title::after {
+  text-decoration: underline;
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  height: 2px;
+  width: 20px;
+  position: absolute;
+  left: calc(50% - 10%);
+  bottom: 0;
+}
+aside {
+  float: right;
+  text-align: center;
+  margin-right: 5em;
+  border-radius: 8px;
+  background-color: rgba(235, 141, 19, 0.918);
+  min-height: 40%;
+}
+select {
+  background-color: rgba(235, 141, 19, 0.918);
+  color: rgb(255, 255, 255);
+  border: 2px solid rgba(255, 255, 255);
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  overflow: hidden;
+  margin: 1em 2em 5em 1em;
+}
+
+select option {
+  color: rgb(255, 255, 255);
+  background-color: inherit;
+  border: 2px solid rgb(42, 58, 66);
+  cursor: pointer;
+  margin: 0.3em;
+}
+select:focus {
+  border: 2px solid #412;
+}
+
+#category-title {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+  margin: 1em;
+  list-style: circle;
+}
